@@ -1,0 +1,9 @@
+@mixin container($size) {
+  padding: 0 2rem;
+  margin: 0 auto;
+  max-width: 90rem;
+
+  @if $size == 'md' {
+    max-width: 110rem;
+  }
+}
