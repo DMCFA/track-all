@@ -1,0 +1,28 @@
+label {
+  font-family: $font-primary;
+  font-size: 1.4rem;
+  display: flex;
+  flex-flow: column wrap;
+
+  input {
+    margin-top: 1px;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px $box-background inset !important;
+}
+
+form input[type='text'] {
+  padding-left: 0.5rem;
+  color: $white;
+}
+
+span {
+  font-size: 1.3rem;
+  font-weight: 600;
+  align-self: baseline;
+}
