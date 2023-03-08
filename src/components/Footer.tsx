@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer = (): JSX.Element => {
   return (
-    <div className='footer'>
+    <section className='footer'>
       <div className='footer__container'>
         <div className='footer__hero'>
           <div className='footer__subscribe'>
@@ -71,7 +71,7 @@ const Footer = (): JSX.Element => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
