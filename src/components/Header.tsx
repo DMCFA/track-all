@@ -55,13 +55,6 @@ const Header = () => {
       <div className='header__container'>
         <div className='header__links'>
           <Link
-            href='/'
-            className='header__home'
-            aria-label='click to go to the homepage'
-          >
-            Home
-          </Link>
-          <Link
             href='/movies'
             className='header__movies'
             aria-label='click to go to the movies page'
