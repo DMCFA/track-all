@@ -53,6 +53,15 @@ const Header = () => {
   return (
     <section className='header'>
       <div className='header__container'>
+        <figure className='header__logo'>
+          <Image
+            src='logo.svg'
+            alt='company logo'
+            className='header__logo-img'
+            width={80}
+            height={80}
+          />
+        </figure>
         <div className='header__links'>
           <Link
             href='/movies'
