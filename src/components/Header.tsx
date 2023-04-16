@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
+import SideNav from './Side-nav';
 
 const Header = () => {
   const [image, setImage] = useState<string>('/no-user.svg');
@@ -89,6 +90,9 @@ const Header = () => {
           </div>
         </div>
         <>{isLoggedIn ? loggedInOptions() : loggedOutOptions()}</>
+        <div className='header__mobile-menu'>
+          <SideNav />
+        </div>
       </div>
     </section>
   );
